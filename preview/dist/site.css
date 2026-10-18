@@ -192,10 +192,10 @@ button{min-height:44px}
 .site-header .mobile-menu{display:none;background:transparent;border:0;color:var(--ink);margin:0;font-size:1rem;gap:8px;align-items:center;justify-content:center;padding:10px 8px;min-width:44px;min-height:48px}
 .site-header .cart-button{display:flex;align-items:center;justify-content:center;gap:8px;margin:0;padding:10px 0 10px 18px;min-width:72px;min-height:48px;font-size:1rem;flex:none}
 .site-header .cart-button span{margin:0;width:auto;min-width:24px;padding-inline:4px}
-.site-header .mobile-primary,.site-header #mobile-nav{display:none}
+.site-header #mobile-nav{display:none}
 .site-header [data-nav-page][aria-current]{color:var(--blue);font-weight:700;border-bottom-color:var(--blue)}
-.header-utilities .btn.secondary[aria-current],.site-header .mobile-primary a.btn.secondary[aria-current]{background:var(--blue);border-color:var(--blue);color:#fff}
-.header-utilities .btn.secondary[aria-current]:hover,.site-header .mobile-primary a.btn.secondary[aria-current]:hover{background:#11596d;border-color:#11596d;color:#fff}
+.header-utilities .btn.secondary[aria-current]{background:var(--blue);border-color:var(--blue);color:#fff}
+.header-utilities .btn.secondary[aria-current]:hover{background:#11596d;border-color:#11596d;color:#fff}
 .site-header #primary-nav .nav-disclosure{position:relative}
 .site-header #primary-nav .nav-dropdown{position:absolute;left:-20px;top:100%;padding:12px 20px;border:1px solid var(--line);background:#fff;min-width:215px}
 @media(max-width:1100px){
@@ -205,8 +205,6 @@ button{min-height:44px}
  .site-header #primary-nav,.header-utilities .desktop-account{display:none}
  .header-utilities{gap:12px}
  .site-header .mobile-menu{display:flex}
- .site-header .mobile-primary{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:12px;flex:none;order:initial;width:auto;margin-top:12px;padding:0;border:0;font-size:1rem}
- .site-header .mobile-primary a.btn{margin:0;padding:10px 8px;min-height:48px;align-self:stretch}
  .site-header #mobile-nav.open{display:flex;flex:none;flex-basis:auto;order:initial;width:auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;margin-top:14px;padding:10px 0 0;border-top:1px solid var(--line)}
  .site-header #mobile-nav>a{padding:12px 0;display:flex;align-items:center;min-height:48px}
  .site-header #mobile-nav summary{display:flex;justify-content:space-between;min-height:48px;padding:12px 0}
